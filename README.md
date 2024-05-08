@@ -1,4 +1,4 @@
-# Godot 4.2 VSCode C# Project with Debugging
+# Godot 4.2 VSCode C# Project + Debug
 
 A basic project boilerplate for Godot Engine C# projects with debugging support for Visual Studio Code.
 
