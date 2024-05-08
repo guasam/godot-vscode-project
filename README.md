@@ -22,3 +22,11 @@ A basic project boilerplate for Godot Engine C# projects with debugging support 
 | Launch Editor            | Starts the Godot Editor with the default scene.            |
 | Launch a Scene           | Prompts to select a scene to start the game for debugging. |
 | Attach to Process        | Attaches to an existing running game process to debug assigned breakpoints. |
+
+<br>
+
+Make sure to update `.vscode/launch.json` for correct path of godot executable for all launch configurations:
+
+```json
+"program": "<path_of_godot_exe>",
+```
