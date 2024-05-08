@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "configurations": [
+    {
+      "name": "Debug Game",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "D:\\Programs\\Godot\\Godot.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Launch Editor",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "D:\\Programs\\Godot\\Godot.exe",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopAtEntry": false,
+      "args": ["--path", "${workspaceRoot}", "-e"]
+    },
+    {
+      "name": "Launch a Scene",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "D:\\Programs\\Godot\\Godot.exe",
+      "console": "internalConsole",
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "args": ["--path", "${workspaceRoot}", "${command:godot.csharp.getLaunchScene}"]
+    },
+    {
+      "name": "Attach to Process",
+      "type": "coreclr",
+      "request": "attach"
+    }
+  ]
+}
