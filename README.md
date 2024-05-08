@@ -3,7 +3,7 @@
 A basic project boilerplate for Godot Engine C# projects with debugging support for Visual Studio Code.
 
 <br />
-<img src="https://github.com/guasam/godot-vscode-project/assets/72690494/97b97375-2004-4e89-bd60-0b00ec57573f" width="600" />
+<img src="https://github.com/guasam/godot-vscode-project/assets/72690494/97b97375-2004-4e89-bd60-0b00ec57573f" />
 <br />
 
 ## Prerequisites
